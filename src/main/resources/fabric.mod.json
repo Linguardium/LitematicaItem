@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "litematicaitem",
+  "version": "${version}",
+  "name": "Litematica Tool",
+  "description": "a useless item for litematica mapping",
+  "authors": [
+    "Linguardium"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/litematicaitem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mod.linguardium.litematicaitem.LitematicaItem"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
